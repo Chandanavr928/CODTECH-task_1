@@ -1,0 +1,107 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Header Styles */
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Expense List Styles */
+
+.expense-list {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.expense-list h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.expense-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.expense-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.expense-list li:last-child {
+  border-bottom: none;
+}
+
+.expense-list .date {
+  font-size: 14px;
+  color: #666;
+}
+
+.expense-list .category {
+  font-size: 14px;
+  color: #666;
+}
+
+.expense-list .amount {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Form Styles */
+
+.form {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form label {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.form input[type="text"], .form input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+.form button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form button[type="submit"]:hover {
+  background-color: #444;
+}
